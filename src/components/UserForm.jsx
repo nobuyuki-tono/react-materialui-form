@@ -29,9 +29,9 @@ class UserForm extends Component {
   };
 
   // Handle fields change
-  handleChange = e => {
+  handleChange = input => e => {
     this.setState({
-      [e.target.name]: e.target.value
+      [input]: e.target.value
     });
   };
 
