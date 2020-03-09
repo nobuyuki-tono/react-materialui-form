@@ -11,10 +11,13 @@ class FormUserDetails extends Component {
   };
 
   render() {
+    const { values } = this.props;
     return (
-      <div>
-        <h1>Hello f</h1>
-      </div>
+      <MuiThemeProvider>
+        <>
+          <AppBar title="Enter User Details" />
+        </>
+      </MuiThemeProvider>
     );
   }
 }
